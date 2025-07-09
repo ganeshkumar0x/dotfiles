@@ -41,7 +41,7 @@ endif
 
 " Plugins
 call plug#begin('~/.vim/plugged')
-Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -50,7 +50,7 @@ call plug#end()
 " Themes
 set termguicolors
 set background=dark
-colorscheme onedark
+colorscheme gruvbox
 
 " Transparency
 hi Normal        ctermbg=NONE guibg=NONE
